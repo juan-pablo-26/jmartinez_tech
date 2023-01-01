@@ -4,7 +4,7 @@
   <head>
 
     <!--Linking my style sheet-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/style.css" />
 
     <!--Below is the title to my Website-->
     <title>Juan Martinez</title>
@@ -17,23 +17,23 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
     <link rel="manifest" href="Images/site.webmanifest">
-    
-    <!--adding the hamburger for small screens on phone-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  
   </head>
   <body>
-
-    <!--This is the code for the nav bar , derived from w3 schools-->
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#resume">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i></a>
-    </div>
-
+    <header>
+      <!--This is the code for the nav bar , derived from w3 schools-->
+      <!--adding the hamburger for small screens on phone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#resume">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>
+      </div>
+    </header>
+   
     <h1>My Resume</h1>
     <h2>Contact Information</h2>
     <p>
@@ -62,5 +62,8 @@
       <li>Performed QA testing and debugging on various projects</li>
       <li>Provided technical documentation for software projects</li>
     </ul>
+
+    <!--Below is the code for all the JavaScript for the site being called upon externally-->
+    <script src="scripts/main.js"></script>
   </body>
 </html>
