@@ -1,10 +1,14 @@
 <!-- this is the start to professional website, I will be putting comments on every part of code where needed-->
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
+    <!--Required information for website-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta description="Just an analyst looking to start a career in a different sphere">
 
     <!--Linking my style sheet-->
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style.css">
 
     <!--Below is the title to my Website-->
     <title>Juan Martinez</title>
@@ -21,20 +25,55 @@
   </head>
   <body>
     <header>
-      <!--This is the code for the nav bar , derived from w3 schools-->
+     
+    </header>
+    <!--This is the code for the nav bar , derived from w3 schools-->
+    <nav>
+       
       <!--adding the hamburger for small screens on phone-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="subsites/resume.html">Resume</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i></a>
-      </div>
-    </header>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="scripts/main.js" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+    </nav>
    
+    <!--Applying a footer with links-->
+    <footer class="footer-distributed">
+
+      <div class="footer-right">
     
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+    
+      </div>
+    
+      <div class="footer-left">
+    
+        <p class="footer-links">
+          <a class="link-1" href="#">Home</a>
+    
+          <a href="#">Blog</a>
+    
+          <a href="#">Pricing</a>
+    
+          <a href="#">About</a>
+    
+          <a href="#">Faq</a>
+    
+          <a href="#">Contact</a>
+        </p>
+    
+        <p>Company Name &copy; 2015</p>
+      </div>
+    
+    </footer>
 
     <!--Below is the code for all the JavaScript for the site being called upon externally-->
     <script src="scripts/main.js"></script>
