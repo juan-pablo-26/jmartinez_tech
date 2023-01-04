@@ -97,6 +97,15 @@
     
     </footer>
     <!--Below is the code for all the JavaScript for the site being called upon externally-->
-    <script src="scripts/main.js"></script>
+    <script>
+      function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+    }
+    </script>
   </body>
 </html>

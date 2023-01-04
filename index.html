@@ -37,7 +37,7 @@
       <a href="resume.html">Resume</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
-      <a href="scripts/main.js" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0)" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i></a>
     </div>
     </nav>
@@ -76,6 +76,15 @@
     </footer>
 <!--what is going on-->
     <!--Below is the code for all the JavaScript for the site being called upon externally-->
-    
+    <script>
+      function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+    }
+    </script>
   </body>
 </html>
