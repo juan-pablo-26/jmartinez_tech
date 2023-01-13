@@ -1,5 +1,11 @@
 /* below is the css for the top navigation
      /* Add a black background color to the top navigation */
+
+     @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+    * {
+      font-family: Roboto;
+    }
     .topnav {
     background-color: #333;
     overflow: hidden;
