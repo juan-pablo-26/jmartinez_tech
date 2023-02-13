@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/gh/nastyox/Rando.js@master/code/plain-javascript/2.0.0/rando-min.js"></script>
+        <script>
+            function showRandomNumber(){
+                document.getElementById("myNumber").innerHTML = rando(1, 10);
+            }
+        </script>
+        <style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body onload="showRandomNumber();">
+        <div id="myNumber"></div>
+    </body>
+</html>
